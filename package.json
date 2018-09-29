@@ -1,0 +1,34 @@
+{
+  "name": "hapi-rest-demo",
+  "version": "0.0.1",
+  "description": "try to complete one rest api demo based on hapi framwoker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chokingwin/hapi-rest-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chokingwin/hapi-rest-demo/issues"
+  },
+  "homepage": "https://github.com/chokingwin/hapi-rest-demo#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "hapi": "^16.6.3",
+    "hapi-pagination": "^1.22.0",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.6.0",
+    "mysql2": "^1.6.1",
+    "package": "^1.0.1",
+    "sequelize": "^4.39.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^4.1.1"
+  }
+}
