@@ -5,3 +5,5 @@ const paginationDefine = {
     page: Joi.number().integer().min(1).default(1).description('页码数'),
     pagination: Joi.boolean().description('是否开启分页，默认为true')
 };
+
+module.exports = { paginationDefine }
