@@ -1,4 +1,4 @@
-const models = require("../models");
+// const models = require("../models");
 const Joi = require('Joi');
 const GROUP_NAME = 'shops';
 
@@ -7,12 +7,13 @@ module.exports = [
         method: 'GET',
         path: `/${GROUP_NAME}`,
         handler: async (request, reply) => {
-            const result = await models.shops.findAll({
-                attributes: [
-                    'id', 'name'
-                ]
-            });
-            reply(result);
+            // const result = await models.shops.findAll({
+            //     attributes: [
+            //         'id', 'name'
+            //     ]
+            // });
+            // reply(result);
+            reply();
         },
         config: {
             tags: ['api', GROUP_NAME],
